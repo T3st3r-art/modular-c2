@@ -1,0 +1,105 @@
+# ─────────────────────────────────────────────
+#  Python
+# ─────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Environnement virtuel
+venv/
+.venv/
+env/
+ENV/
+
+# Distribution / packaging
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ─────────────────────────────────────────────
+#  Base de données (données de test locales)
+# ─────────────────────────────────────────────
+server/*.db
+server/*.db-shm
+server/*.db-wal
+*.sqlite
+*.sqlite3
+
+# ─────────────────────────────────────────────
+#  Binaires compilés (agent C)
+# ─────────────────────────────────────────────
+agents/c/*.exe
+agents/c/*.o
+agents/c/*.a
+agents/c/*.so
+agents/c/*.dll
+agents/c/agent
+agents/c/stager
+agents/c/dropper
+agents/c/modules/*.o
+
+# ─────────────────────────────────────────────
+#  Fichiers exfiltrés des VMs de test (loot)
+# ─────────────────────────────────────────────
+server/loot/
+
+# ─────────────────────────────────────────────
+#  Payloads compilés servis aux stagers
+# ─────────────────────────────────────────────
+server/payloads/c/linux/
+server/payloads/c/windows/
+
+# ─────────────────────────────────────────────
+#  Clés, certificats et secrets
+# ─────────────────────────────────────────────
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+.env
+.env.*
+config_local.py
+secrets.py
+
+# ─────────────────────────────────────────────
+#  Logs
+# ─────────────────────────────────────────────
+*.log
+logs/
+
+# ─────────────────────────────────────────────
+#  Captures réseau (fichiers de test)
+# ─────────────────────────────────────────────
+*.pcap
+*.pcapng
+
+# ─────────────────────────────────────────────
+#  Éditeurs et IDE
+# ─────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ─────────────────────────────────────────────
+#  Documentation (exclue du push)
+# ─────────────────────────────────────────────
+Docs/
+*.pdf
+
+# ─────────────────────────────────────────────
+#  Modules compilés servis aux agents
+# ─────────────────────────────────────────────
+server/modules/
+
+# ─────────────────────────────────────────────
+#  OS
+# ─────────────────────────────────────────────
+Thumbs.db
+.DS_Store
+desktop.ini

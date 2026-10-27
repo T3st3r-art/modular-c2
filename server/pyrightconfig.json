@@ -1,0 +1,6 @@
+{
+  "include": ["."],
+  "typeCheckingMode": "standard",
+  "pythonPath": "${workspaceFolder}/venv/Scripts/python.exe",
+  "pythonVersion": "3.11"
+}
